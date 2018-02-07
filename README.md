@@ -5,13 +5,14 @@ Data Wearhousing Final Project
 List of attributes
 
 - Name
-- Name Origin
-- Location
-- Chemical Formula
-- Composition
-- Environment 
-- IMA Status
-- Images - BLOB
+    - Name Origin
+    - Location
+    - Chemical Formula
+    - Composition
+    - Environment 
+    - IMA Status
+    - Images - BLOB
+
 - Physical Properties
 	- Color
 	- Diaphaneity
