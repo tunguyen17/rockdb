@@ -7,14 +7,14 @@ List of attributes
 - Basic Infomation
 	
 	- Name Origin
-    	- Discover time
-    	- Chemical Formula 
-    	- IMA Status
-    	- Color
-    	- Diaphaneity
-    	- Hardness
-    	- Luster
-    	- Member of (family)
+	- Discover time
+	- Chemical Formula 
+	- IMA Status
+	- Color
+	- Diaphaneity
+	- Hardness
+	- Luster
+	- Member of (family)
 	- Images - BLOB
 
 - Composition
