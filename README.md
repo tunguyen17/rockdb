@@ -7,9 +7,9 @@ List of attributes
 - Basic Infomation
 	
 	- Name Origin
-	- Discover time
 	- Chemical Formula 
 	- IMA Status
+	- IMA Approval Date
 	- Color
 	- Diaphaneity
 	- Hardness
