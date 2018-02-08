@@ -5,8 +5,8 @@ Data Wearhousing Final Project
 List of attributes
 
 - Basic Infomation
-
-    	- Name Origin
+	
+	- Name Origin
     	- Discover time
     	- Chemical Formula 
     	- IMA Status
