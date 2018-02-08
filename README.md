@@ -5,6 +5,7 @@ Data Wearhousing Final Project
 List of attributes
 
 - Basic Infomation
+
     	- Name Origin
     	- Discover time
     	- Chemical Formula 
@@ -17,18 +18,21 @@ List of attributes
 	- Images - BLOB
 
 - Composition
+
 	- Name
 	- Au
 	- Ag
 	- S
 	
 - Location
+
 	- Name
 	- Region
 	- Country
 	- status (ammount)
 
 - Local Infomation
+
 	- Region
 	- Country
 	- Climate type
@@ -36,12 +40,14 @@ List of attributes
 
 
 - IMA 
+
 	- status
 	- description
 	(http://webmineral.com/help/IMAStatus.shtml#.Wnxch0xFxTN)
 
 
 - Family/Group
+
 	- Name
 	- Formula
 	- Description
