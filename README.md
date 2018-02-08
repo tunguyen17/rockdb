@@ -4,28 +4,47 @@ Data Wearhousing Final Project
 
 List of attributes
 
-- Name
-    - Name Origin
-    - Location
-    - Chemical Formula
-    - Composition
-    - Environment 
-    - IMA Status
-    - Images - BLOB
+- Basic Infomation
+    	- Name Origin
+    	- Discover time
+    	- Chemical Formula 
+    	- IMA Status
+    	- Color
+    	- Diaphaneity
+    	- Hardness
+    	- Luster
+    	- Member of (family)
+	- Images - BLOB
 
-- Physical Properties
-	- Color
-	- Diaphaneity
-	- Hardness
-	- Luster
+- Composition
+	- Name
+	- Au
+	- Ag
+	- S
+	
+- Location
+	- Name
+	- Region
+	- Country
+	- status (ammount)
 
-- Country
+- Local Infomation
+	- Region
+	- Country
 	- Climate type
 	- Local language
-	
 
 
+- IMA 
+	- status
+	- description
+	(http://webmineral.com/help/IMAStatus.shtml#.Wnxch0xFxTN)
 
+
+- Family/Group
+	- Name
+	- Formula
+	- Description
 
 Reference:
 
