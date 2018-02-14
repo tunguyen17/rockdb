@@ -1,11 +1,16 @@
-# Rock databse
+<center> <h1> MATH 5362 Data Warehousing Syllabus </h1> </center>
 
-Data Wearhousing Final Project
+<center> Tu Nguyen </>
 
-List of attributes
+<center> <h2> Final Project Proposal /</h2> </center>
 
-- Basic Infomation
-	
+
+
+
+# Table 1: Basic Infomation
+
+### Attributes
+
 	- Name Origin
 	- Chemical Formula 
 	- IMA Status
@@ -14,24 +19,46 @@ List of attributes
 	- Diaphaneity
 	- Hardness
 	- Luster
-	- Member of (family)
+	- Family
 	- Images - BLOB
 
-- Composition
+### Foreign Key
+
+    - IMA Status REFERENCES IMA Status
+    - Family REFERENCES Family/Group
+
+# Table 2: Composition
+
+### Attributes
 
 	- Name
 	- Au
 	- Ag
 	- S
+    - C
+    
+### Foreign Key
+    
+    - Name REFERENCES basic information
 	
-- Location
+# Table 3: Location	
 
+### Attributes
+		
 	- Name
 	- Region
 	- Country
 	- status (ammount)
 
-- Local Infomation
+### Foreign Key
+    
+    - Name REFERENCE basic information
+    - Region, Country REFERENCES Local Information
+
+# Table 4:  Local Infomation
+
+### Attributes
+
 
 	- Region
 	- Country
@@ -39,18 +66,22 @@ List of attributes
 	- Local language
 
 
-- IMA 
+# Table 5: IMA Status 
+### Attributes
 
-	- status
+	- IMA status
 	- description
 	(http://webmineral.com/help/IMAStatus.shtml#.Wnxch0xFxTN)
 
+# Table 6: Family/Group
+### Attributes
 
-- Family/Group
 
-	- Name
+	- Family 
 	- Formula
 	- Description
+
+### Foreign Key
 
 Reference:
 
