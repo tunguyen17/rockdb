@@ -2,7 +2,7 @@
 
 <center> Tu Nguyen </>
 
-<center> <h2> Final Project Proposal /</h2> </center>
+<center> <h2> Final Project Proposal </h2> </center>
 
 
 
