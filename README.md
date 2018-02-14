@@ -1,6 +1,6 @@
 <center> <h1> MATH 5362 Data Warehousing Syllabus </h1> </center>
 
-<center> Tu Nguyen </>
+<center> Tu Nguyen </center>
 
 <center> <h2> Final Project Proposal </h2> </center>
 
