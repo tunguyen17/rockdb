@@ -26,6 +26,7 @@
 
     - IMA Status REFERENCES IMA Status
     - Family REFERENCES Family/Group
+    - hardness REFERENCE hardness name
 
 # Table 2: Composition
 
@@ -83,10 +84,16 @@
 
 ### Foreign Key
 
+### Hardness name
+
+    - hardness
+    - description
+
 Reference:
 
 - http://webmineral.com/
 - https://www.mindat.org
 - http://georoc.mpch-mainz.gwdg.de/georoc/
+
 
 
