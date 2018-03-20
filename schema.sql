@@ -26,7 +26,6 @@ CREATE TABLE local_info(
 );
 
 CREATE TABLE info(
-    id VARCHAR(4) NOT NULL,
     name VARCHAR(100) NOT NULL,
     chemical_formula VARCHAR(100),
     IMA_status VARCHAR(50),
@@ -36,29 +35,27 @@ CREATE TABLE info(
     hardness_score NUMBER,
     luster VARCHAR(50),
     family VARCHAR(50),
-    CONSTRAINT PK_info PRIMARY KEY (id, name),
+    CONSTRAINT PK_info PRIMARY KEY (name),
     CONSTRAINT FK_info_IMA FOREIGN KEY (IMA_status) REFERENCES IMA(IMA_status),
     CONSTRAINT FK_info_hardness FOREIGN KEY (hardness_score) REFERENCES hardness(hardness_score),
     CONSTRAINT FK_info_family FOREIGN KEY (family) REFERENCES family_group(family)
 );
 
 CREATE TABLE composition(
-    info_id VARCHAR(4) NOT NULL,
     name VARCHAR(100) NOT NULL,
     element VARCHAR(100) NOT NULL,
     percent NUMBER,
     CONSTRAINT PK_composition PRIMARY KEY (name, element),
-    CONSTRAINT FK_composition FOREIGN KEY (name, info_id) REFERENCEs info(name, id),
+    CONSTRAINT FK_composition FOREIGN KEY (name) REFERENCES info(name),
     CONSTRAINT CHECK_composition CHECK (percent BETWEEN 0 and 100) --CHECK CONTRAINT 1
 );
 
 CREATE TABLE location(
-    info_id VARCHAR(4) NOT NULL,
     name VARCHAR(100) NOT NULL,
     region VARCHAR(100) NOT NULL,
     country VARCHAR(100) NOT NULL,
     status VARCHAR(50),
     CONSTRAINT PK_location PRIMARY KEY (name, region, country),
-    CONSTRAINT FK_location_info FOREIGN KEY (name, info_id) REFERENCES info(name, id),
+    CONSTRAINT FK_location_info FOREIGN KEY (name) REFERENCES info(name),
     CONSTRAINT FK_location_local FOREIGN KEY (region, country) REFERENCES local_info(region, country)
 );
