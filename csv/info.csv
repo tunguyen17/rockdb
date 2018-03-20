@@ -1,5 +1,5 @@
-ID,Name,Chemical Formula,IMA Status,IMA Approval Date,Color,Diaphaneity,Hardness,Luster,Family
-0001,Barstowite,Pb4(CO3)Cl6•(H2O),Approved,1989-03-05,Colorless, White. Transparent to Opaque,Transparent to Opaque,3,Adamantine,NULL
+ID,   Name,       Chemical Formula,   IMA Status, IMA Approval Date,      Color,   Diaphaneity,Hardness,Luster,Family
+0001, Barstowite, Pb4(CO3)Cl6•(H2O),  Approved,   1989-03-05,Colorless,   White,   Transparent to Opaque,3,Adamantine,NULL
 0002,Oldhamite,(Ca,Mg,Fe)S,Valid Species,NULL,Light brown, Dark brown,Transparent,4,Sub Metallic,Galena Group
 0003,Wattersite,Hg+4Hg++Cr++++++O6,Approved,1987-01-05,Bronze, Reddish brown, Black,Opaque to translucent,4.5,Sub Metallic,NULL
 0004,Astrophyllite,K2Na(Fe++,Mn)7Ti2Si8O26(OH)4,Valid Species,NULL,Brown, Brownish red, Bronze yellow, Gold yellow,Translucent to Opaque,3.5,Adamantine - Pearly,Astrophyllite
